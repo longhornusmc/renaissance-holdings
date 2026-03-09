@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { createPageUrl } from "@/utils";
 import { Menu, X } from "lucide-react";
@@ -18,6 +18,10 @@ const LOGO_ICON = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/pu
 
 export default function Layout({ children, currentPageName }) {
   const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [currentPageName]);
 
   return (
     <>
