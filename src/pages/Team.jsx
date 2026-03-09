@@ -76,7 +76,7 @@ export default function Team() {
       <section className="rh-section rh-section-alt">
         <div className="rh-container">
           <span className="rh-eyebrow">Operating Advisors & Partners</span>
-          <h2 className="rh-h2" style={{ maxWidth: "480px", marginBottom: "16px" }}>
+          <h2 className="rh-h2" style={{ marginBottom: "16px" }}>
             Supported by experienced operators and industry specialists.
           </h2>
           <p className="rh-body" style={{ marginBottom: "44px" }}>
