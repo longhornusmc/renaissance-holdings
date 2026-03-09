@@ -63,7 +63,9 @@ export default function Team() {
                 "[Education]",
                 "[Key Experience]",
                 "[Background]",
+                "[Background]",
               ]}
+              linkedinUrl="[LinkedIn URL]"
               biography={<p className="rh-body">Background and biography to be added.</p>}
             />
           </div>
