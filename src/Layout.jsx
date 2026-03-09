@@ -13,9 +13,14 @@ const navItems = [
   { label: "Contact", page: "Contact" },
 ];
 
-const LOGO_HORIZ = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69ae331eab7b724aff553a13/694e594cd_RHLogohorizbarspng.png";
-const LOGO_ICON = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69ae331eab7b724aff553a13/cdb5d07ec_RHIconpng.png";
-const LOGO_VERT = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69ae331eab7b724aff553a13/ce5cda084_RHLogovertnobarspng.png";
+const RHMark = ({ size = 38 }) => (
+  <svg width={size} height={size} viewBox="0 0 38 38" fill="none">
+    <circle cx="19" cy="19" r="17.5" stroke="#c8a84c" strokeWidth="1"/>
+    <circle cx="19" cy="19" r="13" stroke="#c8a84c" strokeWidth="0.6"/>
+    <text x="8" y="24.5" fill="#c8a84c" fontSize="13.5" fontFamily="Georgia, serif" fontWeight="700" letterSpacing="-0.5">R</text>
+    <text x="19.5" y="24.5" fill="#c8a84c" fillOpacity="0.45" fontSize="13.5" fontFamily="Georgia, serif" fontWeight="700">H</text>
+  </svg>
+);
 
 export default function Layout({ children, currentPageName }) {
   const [open, setOpen] = useState(false);
@@ -268,12 +273,16 @@ export default function Layout({ children, currentPageName }) {
         {/* Nav */}
         <nav className="rh-nav">
           <div className="rh-nav-inner">
-            <Link to={createPageUrl("Home")} style={{ display: "flex", alignItems: "center", textDecoration: "none" }}>
-              <img
-                src={LOGO_HORIZ}
-                alt="Renaissance Holdings"
-                style={{ height: "34px", filter: "brightness(0) saturate(100%) invert(70%) sepia(35%) saturate(600%) hue-rotate(5deg) brightness(95%)" }}
-              />
+            <Link to={createPageUrl("Home")} style={{ display: "flex", alignItems: "center", gap: "12px", textDecoration: "none" }}>
+              <RHMark />
+              <div>
+                <div style={{ fontFamily: "'DM Mono', monospace", fontSize: "10px", letterSpacing: "0.3em", color: "#c8a84c", textTransform: "uppercase", lineHeight: "1.2" }}>
+                  Renaissance
+                </div>
+                <div style={{ fontFamily: "'DM Mono', monospace", fontSize: "8.5px", letterSpacing: "0.3em", color: "#6b5a2a", textTransform: "uppercase", marginTop: "3px" }}>
+                  Holdings
+                </div>
+              </div>
             </Link>
 
             <div className="rh-nav-links">
@@ -319,11 +328,13 @@ export default function Layout({ children, currentPageName }) {
           <div className="rh-container">
             <div style={{ display: "flex", flexWrap: "wrap", gap: "32px", justifyContent: "space-between", alignItems: "flex-start" }}>
               <div>
-                <img
-                  src={LOGO_VERT}
-                  alt="Renaissance Holdings"
-                  style={{ height: "72px", filter: "brightness(0) saturate(100%) invert(70%) sepia(35%) saturate(600%) hue-rotate(5deg) brightness(95%)", marginBottom: "14px", display: "block" }}
-                />
+                <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "16px" }}>
+                  <RHMark size={34} />
+                  <div>
+                    <div style={{ fontFamily: "'DM Mono', monospace", fontSize: "10px", letterSpacing: "0.3em", color: "#c8a84c", textTransform: "uppercase", lineHeight: "1.2" }}>Renaissance</div>
+                    <div style={{ fontFamily: "'DM Mono', monospace", fontSize: "8.5px", letterSpacing: "0.3em", color: "#6b5a2a", textTransform: "uppercase", marginTop: "3px" }}>Holdings</div>
+                  </div>
+                </div>
                 <div style={{ fontFamily: "'DM Mono', monospace", fontSize: "9px", letterSpacing: "0.18em", color: "#2a312a", textTransform: "uppercase" }}>
                   Building Quietly. Compounding Relentlessly.
                 </div>
