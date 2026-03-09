@@ -74,7 +74,7 @@ export default function Team() {
 
       {/* Advisors */}
       <section className="rh-section rh-section-alt">
-        <div className="rh-container-text">
+        <div className="rh-container">
           <span className="rh-eyebrow">Operating Advisors & Partners</span>
           <h2 className="rh-h2" style={{ maxWidth: "480px", marginBottom: "16px" }}>
             Supported by experienced operators and industry specialists.
@@ -82,21 +82,21 @@ export default function Team() {
           <p className="rh-body" style={{ maxWidth: "560px", marginBottom: "44px" }}>
             Renaissance Holdings is supported by a network of operators, industry advisors, and capital partners who bring direct experience in the markets we target.
           </p>
-          <div className="rh-grid-3">
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "32px" }}>
             {["Operating Advisor", "Industry Specialist", "Strategic Partner"].map((role) => (
-              <div key={role} className="rh-card">
+              <div key={role} className="rh-card" style={{ minHeight: "320px" }}>
                 <div style={{
                   fontFamily: "system-ui, sans-serif",
                   fontSize: "10px", letterSpacing: "0.2em",
                   textTransform: "uppercase", color: "#5e5a4e",
-                  marginBottom: "10px",
+                  marginBottom: "16px",
                 }}>
                   {role}
                 </div>
                 <div style={{
                   fontFamily: "Georgia, serif",
-                  fontSize: "18px", color: "#f2ecd8",
-                  marginBottom: "10px", fontWeight: 400,
+                  fontSize: "28px", color: "#f2ecd8",
+                  marginBottom: "16px", fontWeight: 400,
                 }}>
                   [Name]
                 </div>
