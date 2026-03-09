@@ -8,11 +8,22 @@ export default function TeamMember({ name, title, image, keyFacts, biography }) 
     <div>
       {/* Image and Basic Info */}
       <div style={{ marginBottom: "20px" }}>
-        <img 
-          src={image} 
-          alt={name}
-          style={{ width: "100%", borderRadius: "2px", marginBottom: "16px" }}
-        />
+        {image ? (
+          <img 
+            src={image} 
+            alt={name}
+            style={{ width: "100%", borderRadius: "2px", marginBottom: "16px" }}
+          />
+        ) : (
+          <div style={{
+            width: "100%",
+            aspectRatio: "1",
+            background: "#111610",
+            borderRadius: "2px",
+            marginBottom: "16px",
+            border: "1px solid #1a211a",
+          }} />
+        )}
         <div style={{
           fontFamily: "'DM Sans', system-ui, sans-serif",
           fontSize: "10px", letterSpacing: "0.22em",
