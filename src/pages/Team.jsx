@@ -62,7 +62,7 @@ export default function Team() {
               keyFacts={[
                 "[Education]",
                 "[Key Experience]",
-                "[Background]",
+                "[Key Experience]",
                 "[Background]",
               ]}
               linkedinUrl="[LinkedIn URL]"
