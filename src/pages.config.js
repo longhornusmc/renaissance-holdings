@@ -47,8 +47,32 @@
  *
  * The mainPage value must match a key in the PAGES object exactly.
  */
+import Home from './pages/Home';
+import HoldingCompany101 from './pages/HoldingCompany101';
+import MarketUniverse from './pages/MarketUniverse';
+import IntelligenceFlywheel from './pages/IntelligenceFlywheel';
+import AcquisitionPlaybook from './pages/AcquisitionPlaybook';
+import First90Days from './pages/First90Days';
+import FinancialModel from './pages/FinancialModel';
+import CompoundingEffect from './pages/CompoundingEffect';
+import DealExplorer from './pages/DealExplorer';
+import __Layout from './Layout.jsx';
 
-export const pagesConfig = {
-	Pages: {}
+
+export const PAGES = {
+    "Home": Home,
+    "HoldingCompany101": HoldingCompany101,
+    "MarketUniverse": MarketUniverse,
+    "IntelligenceFlywheel": IntelligenceFlywheel,
+    "AcquisitionPlaybook": AcquisitionPlaybook,
+    "First90Days": First90Days,
+    "FinancialModel": FinancialModel,
+    "CompoundingEffect": CompoundingEffect,
+    "DealExplorer": DealExplorer,
 }
 
+export const pagesConfig = {
+    mainPage: "Home",
+    Pages: PAGES,
+    Layout: __Layout,
+};
