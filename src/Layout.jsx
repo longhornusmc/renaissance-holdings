@@ -317,7 +317,7 @@ export default function Layout({ children, currentPageName }) {
                 <div style={{ marginBottom: "16px" }}>
                   <img src={LOGO_ICON} alt="Renaissance Holdings" style={{ height: "48px", objectFit: "contain" }} />
                 </div>
-                <div style={{ fontFamily: "'DM Mono', monospace", fontSize: "9px", letterSpacing: "0.18em", color: "#5e5a4e", textTransform: "uppercase" }}>
+                <div style={{ fontFamily: "'DM Mono', monospace", fontSize: "9px", letterSpacing: "0.18em", color: "#c8a84c", textTransform: "uppercase" }}>
                   Building Quietly. Compounding Relentlessly.
                 </div>
               </div>
@@ -331,7 +331,7 @@ export default function Layout({ children, currentPageName }) {
                   <Link
                     key={l.page}
                     to={createPageUrl(l.page)}
-                    style={{ fontFamily: "'DM Sans', system-ui, sans-serif", fontSize: "12px", color: "#7a7668" }}
+                    style={{ fontFamily: "'DM Sans', system-ui, sans-serif", fontSize: "12px", color: "#c8a84c" }}
                   >
                     {l.label}
                   </Link>
@@ -339,7 +339,7 @@ export default function Layout({ children, currentPageName }) {
               </div>
             </div>
             <div style={{ marginTop: "32px", paddingTop: "24px", borderTop: "1px solid #1a211a" }}>
-              <span style={{ fontFamily: "'DM Mono', monospace", fontSize: "10px", color: "#5e5a4e", letterSpacing: "0.08em" }}>
+              <span style={{ fontFamily: "'DM Mono', monospace", fontSize: "10px", color: "#c8a84c", letterSpacing: "0.08em" }}>
                 © 2026 Renaissance Holdings · All rights reserved.
               </span>
             </div>
