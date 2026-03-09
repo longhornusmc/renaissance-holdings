@@ -29,12 +29,11 @@ export default function Team() {
               title="Founder &amp; Managing Partner"
               image="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69ae331eab7b724aff553a13/5a8acb8b5_Profile-SuitSquareBW.JPEG"
               keyFacts={[
-                "MBA, Cornell University SC Johnson",
-                "BA Economics &amp; Government, UT Austin",
                 "Senior Advisor, Dept. of the Navy",
-                "President, Hover Energy",
-                "Marine Corps Officer, 20+ years",
+                "President &amp; Board Director, Hover Energy",
+                "U.S. Marine Corps Officer",
               ]}
+              linkedinUrl="https://www.linkedin.com/in/patrickgeorge/"
               biography={
                 <>
                   <p className="rh-body">Patrick George is a senior executive, military officer, and capital allocator with a career spanning national defense, energy, and venture-backed growth.</p>
