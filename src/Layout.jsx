@@ -236,7 +236,7 @@ export default function Layout({ children, currentPageName }) {
             font-family: 'DM Sans', system-ui, sans-serif; font-size: 14px;
             color: #e6e2d6; transition: border-color 0.18s; outline: none;
           }
-          .rh-input::placeholder { color: #2a312a; }
+          .rh-input::placeholder { color: #9a9484; }
           .rh-input:focus { border-color: #c8a84c; }
           .rh-form-label {
             display: block;
