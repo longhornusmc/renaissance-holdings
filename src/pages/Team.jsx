@@ -27,7 +27,7 @@ export default function Team() {
             <TeamMember
               name="Patrick S. George"
               title="Founder &amp; Managing Partner"
-              image="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69ae331eab7b724aff553a13/009d073d6_image.png"
+              image="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69ae331eab7b724aff553a13/5a8acb8b5_Profile-SuitSquareBW.JPEG"
               keyFacts={[
                 "MBA, Cornell University SC Johnson",
                 "BA Economics &amp; Government, UT Austin",
