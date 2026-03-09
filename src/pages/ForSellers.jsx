@@ -38,7 +38,7 @@ export default function ForSellers() {
 
       {/* Why Owners Work With Us */}
       <section className="rh-section rh-section-alt">
-        <div className="rh-container-text">
+        <div className="rh-container">
           <span className="rh-eyebrow">Why Owners Work With Us</span>
           <h2 className="rh-h2" style={{ maxWidth: "480px", marginBottom: "48px" }}>
             Built for the long term. Structured for the transition.
