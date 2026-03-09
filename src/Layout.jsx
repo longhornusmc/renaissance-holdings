@@ -13,8 +13,8 @@ const navItems = [
   { label: "Contact", page: "Contact" },
 ];
 
-const LOGO_HORIZ = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69ae331eab7b724aff553a13/f570398fd_RHLogogoldhorizbarspng.png";
-const LOGO_ICON = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69ae331eab7b724aff553a13/c0ad434af_RHIcongold2png.png";
+const LOGO_HORIZ = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69ae331eab7b724aff553a13/c8cc45562_RHLogogoldhorizbarspngnobackground.png";
+const LOGO_ICON = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69ae331eab7b724aff553a13/3a77b1e98_RHIcongold2pngnobackground.png";
 
 export default function Layout({ children, currentPageName }) {
   const [open, setOpen] = useState(false);
@@ -36,7 +36,7 @@ export default function Layout({ children, currentPageName }) {
             background: rgba(6,9,7,0.96);
             backdrop-filter: blur(8px);
             border-bottom: 1px solid #1a211a;
-            height: 64px; display: flex; align-items: center;
+            height: 100px; display: flex; align-items: center;
           }
           .rh-nav-inner {
             max-width: 1140px; margin: 0 auto; padding: 0 28px;
@@ -268,7 +268,7 @@ export default function Layout({ children, currentPageName }) {
         <nav className="rh-nav">
           <div className="rh-nav-inner">
             <Link to={createPageUrl("Home")} style={{ display: "flex", alignItems: "center", textDecoration: "none" }}>
-              <img src={LOGO_HORIZ} alt="Renaissance Holdings" style={{ height: "52px", objectFit: "contain" }} />
+              <img src={LOGO_HORIZ} alt="Renaissance Holdings" style={{ height: "156px", objectFit: "contain" }} />
             </Link>
 
             <div className="rh-nav-links">
