@@ -45,13 +45,33 @@ export default function TeamMember({ name, title, image, keyFacts, biography, li
           {keyFacts.map((fact, i) => (
             <li key={i} style={{
               fontFamily: "'DM Mono', monospace",
-              fontSize: "11px", color: "#a89968",
+              fontSize: "11px", color: "#6b6659",
               lineHeight: "1.6", marginBottom: "4px",
             }}>
               {fact}
             </li>
           ))}
         </ul>
+        {linkedinUrl && (
+          <a 
+            href={linkedinUrl} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            style={{
+              fontFamily: "'DM Mono', monospace",
+              fontSize: "10px",
+              letterSpacing: "0.1em",
+              textTransform: "uppercase",
+              color: "#c8a84c",
+              textDecoration: "none",
+              transition: "color 0.18s",
+            }}
+            onMouseEnter={(e) => e.target.style.color = "#f2ecd8"}
+            onMouseLeave={(e) => e.target.style.color = "#c8a84c"}
+          >
+            LinkedIn
+          </a>
+        )}
       </div>
 
       {/* Dropdown Toggle */}
