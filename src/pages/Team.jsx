@@ -6,7 +6,7 @@ export default function Team() {
     <>
       {/* Hero */}
       <section className="rh-section" style={{ paddingTop: "96px" }}>
-        <div className="rh-container-text">
+        <div className="rh-container">
           <span className="rh-eyebrow">Leadership</span>
           <h1 className="rh-h1">Investing discipline. Operator focus.</h1>
           <p className="rh-body-lg">
@@ -19,7 +19,7 @@ export default function Team() {
 
       {/* Founder */}
       <section className="rh-section">
-        <div className="rh-container">
+        <div className="rh-container-text">
           <span className="rh-eyebrow">Founding Team</span>
           <div style={{ maxWidth: "820px" }}>
             <div style={{
@@ -52,7 +52,7 @@ export default function Team() {
 
       {/* Advisors */}
       <section className="rh-section rh-section-alt">
-        <div className="rh-container">
+        <div className="rh-container-text">
           <span className="rh-eyebrow">Operating Advisors &amp; Partners</span>
           <h2 className="rh-h2" style={{ maxWidth: "480px", marginBottom: "16px" }}>
             Supported by experienced operators and industry specialists.
