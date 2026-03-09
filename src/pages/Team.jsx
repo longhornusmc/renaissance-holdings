@@ -58,7 +58,7 @@ export default function Team() {
             <TeamMember
               name="[Name]"
               title="Founding Partner"
-              image="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69ae331eab7b724aff553a13/5cf84e9be_Profile-SuitSquareBW.JPEG"
+              image={null}
               keyFacts={[
                 "[Education]",
                 "[Key Experience]",
