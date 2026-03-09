@@ -15,7 +15,7 @@ export default function Contact() {
     <>
       {/* Hero */}
       <section className="rh-section" style={{ paddingTop: "96px" }}>
-        <div className="rh-container-text">
+        <div className="rh-container">
           <span className="rh-eyebrow">Contact</span>
           <h1 className="rh-h1">Start a conversation.</h1>
           <p className="rh-body-lg">
