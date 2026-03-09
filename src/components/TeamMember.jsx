@@ -27,7 +27,7 @@ export default function TeamMember({ name, title, image, keyFacts, biography }) 
         <div style={{
           fontFamily: "'DM Sans', system-ui, sans-serif",
           fontSize: "10px", letterSpacing: "0.22em",
-          textTransform: "uppercase", color: "#5e5a4e",
+          textTransform: "uppercase", color: "#c8a84c",
           marginBottom: "8px",
         }}>
           {title}
@@ -45,7 +45,7 @@ export default function TeamMember({ name, title, image, keyFacts, biography }) 
           {keyFacts.map((fact, i) => (
             <li key={i} style={{
               fontFamily: "'DM Mono', monospace",
-              fontSize: "11px", color: "#5e5a4e",
+              fontSize: "11px", color: "#a89968",
               lineHeight: "1.6", marginBottom: "4px",
             }}>
               {fact}
