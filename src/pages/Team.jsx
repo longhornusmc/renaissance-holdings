@@ -32,6 +32,7 @@ export default function Team() {
                 "Senior Advisor, Dept. of the Navy",
                 "President & Board Director, Hover Energy",
                 "Co-Founder & President, Accelerate Resources (monetized)",
+                "U.S. Marine Corps Officer",
               ]}
               linkedinUrl="https://www.linkedin.com/in/patrickgeorge/"
               biography={
