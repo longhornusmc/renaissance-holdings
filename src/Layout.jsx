@@ -50,7 +50,7 @@ export default function Layout({ children, currentPageName }) {
 
           .rh-nav-link {
             font-family: 'DM Sans', system-ui, sans-serif;
-            font-size: 13px; color: #5e5a4e;
+            font-size: 13px; color: #c8a84c;
             transition: color 0.15s; white-space: nowrap;
           }
           .rh-nav-link:hover { color: #e6e2d6; }
