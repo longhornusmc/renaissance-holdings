@@ -56,7 +56,7 @@ export default function Team() {
             {/* Second Founding Team Member - Placeholder */}
             <TeamMember
               name="[Name]"
-              title="Founding Partner"
+              title="Founder &amp; Managing Partner"
               image={null}
               keyFacts={[
                 "[Education]",
