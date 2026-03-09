@@ -268,7 +268,7 @@ export default function Layout({ children, currentPageName }) {
         <nav className="rh-nav">
           <div className="rh-nav-inner">
             <Link to={createPageUrl("Home")} style={{ display: "flex", alignItems: "center", textDecoration: "none" }}>
-              <img src={LOGO_HORIZ} alt="Renaissance Holdings" style={{ height: "36px", objectFit: "contain" }} />
+              <img src={LOGO_HORIZ} alt="Renaissance Holdings" style={{ height: "52px", objectFit: "contain" }} />
             </Link>
 
             <div className="rh-nav-links">
