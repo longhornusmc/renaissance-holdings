@@ -157,10 +157,10 @@ export default function Home() {
 
       {/* For Sellers CTA */}
       <section className="rh-section rh-section-dark">
-        <div className="rh-container-text">
+        <div className="rh-container">
           <span className="rh-eyebrow">For Sellers</span>
-          <h2 className="rh-h2">A permanent home for strong businesses.</h2>
-          <p className="rh-body-lg" style={{ marginBottom: "36px" }}>
+          <h2 className="rh-h2" style={{ maxWidth: "540px" }}>A permanent home for strong businesses.</h2>
+          <p className="rh-body-lg" style={{ marginBottom: "36px", maxWidth: "560px" }}>
             We partner with founders who have built strong companies and want a responsible transition. Our goal is to preserve what makes each business successful while strengthening systems and supporting long-term growth.
           </p>
           <Link to={createPageUrl("Contact")} className="rh-btn-ghost">
