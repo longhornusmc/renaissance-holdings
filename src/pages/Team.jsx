@@ -26,12 +26,12 @@ export default function Team() {
             {/* Patrick George */}
             <TeamMember
               name="Patrick S. George"
-              title="Founder &amp; Managing Partner"
+              title="Founder & Managing Partner"
               image="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69ae331eab7b724aff553a13/5a8acb8b5_Profile-SuitSquareBW.JPEG"
               keyFacts={[
                 "Senior Advisor, Dept. of the Navy",
-                "President &amp; Board Director, Hover Energy",
-                "Co-Founder &amp; President, Accelerate Resources (monetized)",
+                "President & Board Director, Hover Energy",
+                "Co-Founder & President, Accelerate Resources (monetized)",
               ]}
               linkedinUrl="https://www.linkedin.com/in/patrickgeorge/"
               biography={
@@ -56,7 +56,7 @@ export default function Team() {
             {/* Second Founding Team Member - Placeholder */}
             <TeamMember
               name="[Name]"
-              title="Founder &amp; Managing Partner"
+              title="Founder & Managing Partner"
               image={null}
               keyFacts={[
                 "[Education]",
@@ -72,7 +72,7 @@ export default function Team() {
       {/* Advisors */}
       <section className="rh-section rh-section-alt">
         <div className="rh-container-text">
-          <span className="rh-eyebrow">Operating Advisors &amp; Partners</span>
+          <span className="rh-eyebrow">Operating Advisors & Partners</span>
           <h2 className="rh-h2" style={{ maxWidth: "480px", marginBottom: "16px" }}>
             Supported by experienced operators and industry specialists.
           </h2>
