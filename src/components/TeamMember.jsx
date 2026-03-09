@@ -45,7 +45,7 @@ export default function TeamMember({ name, title, image, keyFacts, biography, li
           {keyFacts.map((fact, i) => (
             <li key={i} style={{
               fontFamily: "'DM Mono', monospace",
-              fontSize: "11px", color: "#6b6659",
+              fontSize: "11px", color: "#8a7d6f",
               lineHeight: "1.6", marginBottom: "4px",
             }}>
               {fact}
