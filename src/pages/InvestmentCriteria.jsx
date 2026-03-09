@@ -86,7 +86,7 @@ export default function InvestmentCriteria() {
 
       {/* CTA */}
       <section className="rh-section rh-section-dark">
-        <div className="rh-container-text">
+        <div className="rh-container">
           <span className="rh-eyebrow">Next Step</span>
           <h2 className="rh-h2">Does your business fit?</h2>
           <p className="rh-body-lg" style={{ marginBottom: "36px" }}>
