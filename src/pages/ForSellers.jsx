@@ -56,7 +56,7 @@ export default function ForSellers() {
 
       {/* Transition Philosophy */}
       <section className="rh-section">
-        <div className="rh-container-text">
+        <div className="rh-container">
           <span className="rh-eyebrow">Our Transition Philosophy</span>
           <h2 className="rh-h2" style={{ maxWidth: "480px", marginBottom: "44px" }}>What stays the same. What gets better.</h2>
           <div style={{ maxWidth: "820px" }}>
@@ -104,7 +104,7 @@ export default function ForSellers() {
 
       {/* CTA Dark */}
       <section className="rh-section rh-section-dark">
-        <div className="rh-container-text">
+        <div className="rh-container">
           <span className="rh-eyebrow">Start Here</span>
           <h2 className="rh-h2">Ready to explore a transition?</h2>
           <p className="rh-body-lg" style={{ marginBottom: "36px" }}>
