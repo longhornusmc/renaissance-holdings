@@ -45,7 +45,7 @@ export default function OurModel() {
 
       {/* Value Creation Pillars */}
       <section className="rh-section rh-section-alt">
-        <div className="rh-container">
+        <div className="rh-container-text">
           <span className="rh-eyebrow">Value Creation</span>
           <h2 className="rh-h2" style={{ maxWidth: "480px", marginBottom: "48px" }}>
             Four pillars of long-term platform value.

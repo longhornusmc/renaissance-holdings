@@ -52,7 +52,7 @@ export default function InvestmentCriteria() {
 
       {/* Criteria */}
       <section className="rh-section">
-        <div className="rh-container">
+        <div className="rh-container-text">
           <div style={{ maxWidth: "820px" }}>
             {criteria.map((c, i) => (
               <div key={c.label} style={{
