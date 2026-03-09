@@ -94,16 +94,12 @@ export default function Team() {
               gap: "32px",
               alignItems: "start",
             }}>
-              <div style={{
-                background: "#111610",
-                padding: "80px 20px",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                borderRadius: "2px",
-                color: "#5e5a4e",
-              }}>
-                [Image placeholder]
+              <div>
+                <img 
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69ae331eab7b724aff553a13/5cf84e9be_Profile-SuitSquareBW.JPEG" 
+                  alt="Founding Partner"
+                  style={{ width: "100%", borderRadius: "2px", marginBottom: "16px" }}
+                />
               </div>
               <div>
                 <div style={{
