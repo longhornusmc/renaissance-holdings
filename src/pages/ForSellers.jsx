@@ -25,7 +25,7 @@ export default function ForSellers() {
     <>
       {/* Hero */}
       <section className="rh-section" style={{ paddingTop: "96px" }}>
-        <div className="rh-container-text">
+        <div className="rh-container">
           <span className="rh-eyebrow">For Sellers</span>
           <h1 className="rh-h1">A thoughtful transition for the businesses you built.</h1>
           <p className="rh-body-lg">
@@ -38,7 +38,7 @@ export default function ForSellers() {
 
       {/* Why Owners Work With Us */}
       <section className="rh-section rh-section-alt">
-        <div className="rh-container">
+        <div className="rh-container-text">
           <span className="rh-eyebrow">Why Owners Work With Us</span>
           <h2 className="rh-h2" style={{ maxWidth: "480px", marginBottom: "48px" }}>
             Built for the long term. Structured for the transition.
@@ -56,7 +56,7 @@ export default function ForSellers() {
 
       {/* Transition Philosophy */}
       <section className="rh-section">
-        <div className="rh-container">
+        <div className="rh-container-text">
           <span className="rh-eyebrow">Our Transition Philosophy</span>
           <h2 className="rh-h2" style={{ maxWidth: "480px", marginBottom: "44px" }}>What stays the same. What gets better.</h2>
           <div style={{ maxWidth: "820px" }}>
@@ -87,7 +87,7 @@ export default function ForSellers() {
 
       {/* What to Expect */}
       <section className="rh-section rh-section-alt">
-        <div className="rh-container-text">
+        <div className="rh-container">
           <span className="rh-eyebrow">The Process</span>
           <h2 className="rh-h2">Simple. Confidential. Direct.</h2>
           <p className="rh-body">
