@@ -267,16 +267,8 @@ export default function Layout({ children, currentPageName }) {
         {/* Nav */}
         <nav className="rh-nav">
           <div className="rh-nav-inner">
-            <Link to={createPageUrl("Home")} style={{ display: "flex", alignItems: "center", gap: "12px", textDecoration: "none" }}>
-              <RHMark />
-              <div>
-                <div style={{ fontFamily: "'DM Mono', monospace", fontSize: "10px", letterSpacing: "0.3em", color: "#c8a84c", textTransform: "uppercase", lineHeight: "1.2" }}>
-                  Renaissance
-                </div>
-                <div style={{ fontFamily: "'DM Mono', monospace", fontSize: "8.5px", letterSpacing: "0.3em", color: "#6b5a2a", textTransform: "uppercase", marginTop: "3px" }}>
-                  Holdings
-                </div>
-              </div>
+            <Link to={createPageUrl("Home")} style={{ display: "flex", alignItems: "center", textDecoration: "none" }}>
+              <img src={LOGO_HORIZ} alt="Renaissance Holdings" style={{ height: "36px", objectFit: "contain" }} />
             </Link>
 
             <div className="rh-nav-links">
