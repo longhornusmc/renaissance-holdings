@@ -48,27 +48,27 @@
  * The mainPage value must match a key in the PAGES object exactly.
  */
 import Home from './pages/Home';
-import HoldingCompany101 from './pages/HoldingCompany101';
-import MarketUniverse from './pages/MarketUniverse';
-import IntelligenceFlywheel from './pages/IntelligenceFlywheel';
-import AcquisitionPlaybook from './pages/AcquisitionPlaybook';
-import First90Days from './pages/First90Days';
-import FinancialModel from './pages/FinancialModel';
-import CompoundingEffect from './pages/CompoundingEffect';
-import DealExplorer from './pages/DealExplorer';
+import Strategy from './pages/Strategy';
+import InvestmentCriteria from './pages/InvestmentCriteria';
+import OurModel from './pages/OurModel';
+import CaseStudies from './pages/CaseStudies';
+import ForSellers from './pages/ForSellers';
+import Team from './pages/Team';
+import Contact from './pages/Contact';
+import IllustrativeEconomics from './pages/IllustrativeEconomics';
 import __Layout from './Layout.jsx';
 
 
 export const PAGES = {
     "Home": Home,
-    "HoldingCompany101": HoldingCompany101,
-    "MarketUniverse": MarketUniverse,
-    "IntelligenceFlywheel": IntelligenceFlywheel,
-    "AcquisitionPlaybook": AcquisitionPlaybook,
-    "First90Days": First90Days,
-    "FinancialModel": FinancialModel,
-    "CompoundingEffect": CompoundingEffect,
-    "DealExplorer": DealExplorer,
+    "Strategy": Strategy,
+    "InvestmentCriteria": InvestmentCriteria,
+    "OurModel": OurModel,
+    "CaseStudies": CaseStudies,
+    "ForSellers": ForSellers,
+    "Team": Team,
+    "Contact": Contact,
+    "IllustrativeEconomics": IllustrativeEconomics,
 }
 
 export const pagesConfig = {
