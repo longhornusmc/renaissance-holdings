@@ -319,13 +319,11 @@ export default function Layout({ children, currentPageName }) {
           <div className="rh-container">
             <div style={{ display: "flex", flexWrap: "wrap", gap: "32px", justifyContent: "space-between", alignItems: "flex-start" }}>
               <div>
-                <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "16px" }}>
-                  <RHMark size={34} />
-                  <div>
-                    <div style={{ fontFamily: "'DM Mono', monospace", fontSize: "10px", letterSpacing: "0.3em", color: "#c8a84c", textTransform: "uppercase", lineHeight: "1.2" }}>Renaissance</div>
-                    <div style={{ fontFamily: "'DM Mono', monospace", fontSize: "8.5px", letterSpacing: "0.3em", color: "#6b5a2a", textTransform: "uppercase", marginTop: "3px" }}>Holdings</div>
-                  </div>
-                </div>
+                <img
+                  src={LOGO_VERT}
+                  alt="Renaissance Holdings"
+                  style={{ height: "72px", filter: "invert(1) sepia(1) saturate(0.4) brightness(0.95)", marginBottom: "14px", display: "block" }}
+                />
                 <div style={{ fontFamily: "'DM Mono', monospace", fontSize: "9px", letterSpacing: "0.18em", color: "#2a312a", textTransform: "uppercase" }}>
                   Building Quietly. Compounding Relentlessly.
                 </div>
