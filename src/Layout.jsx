@@ -6,9 +6,8 @@ import { Menu, X } from "lucide-react";
 const navItems = [
   { label: "Home", page: "Home" },
   { label: "Strategy", page: "Strategy" },
-  { label: "Investment Criteria", page: "InvestmentCriteria" },
+  { label: "Criteria", page: "InvestmentCriteria" },
   { label: "Our Model", page: "OurModel" },
-  { label: "Case Studies", page: "CaseStudies" },
   { label: "For Sellers", page: "ForSellers" },
   { label: "Team", page: "Team" },
   { label: "Contact", page: "Contact" },

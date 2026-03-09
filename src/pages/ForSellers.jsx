@@ -54,19 +54,50 @@ export default function ForSellers() {
         </div>
       </section>
 
-      {/* What to Expect */}
+      {/* Transition Philosophy */}
       <section className="rh-section">
+        <div className="rh-container">
+          <span className="rh-eyebrow">Our Transition Philosophy</span>
+          <h2 className="rh-h2" style={{ maxWidth: "480px", marginBottom: "44px" }}>What stays the same. What gets better.</h2>
+          <div style={{ maxWidth: "820px" }}>
+            {[
+              { title: "Your brand stays yours.", body: "We do not rebrand acquired companies. The name, reputation, and local identity you built remain in place. That reputation is part of what we're buying." },
+              { title: "Your employees are protected.", body: "We do not acquire businesses with the intention of cutting staff. Our goal is to support the existing team, improve their tools, and create a stable environment for long-term growth." },
+              { title: "Local leadership remains central.", body: "The people who run the business day-to-day continue to do so. We provide support, infrastructure, and capital — not a new management team from outside the market." },
+              { title: "You define the timeline.", body: "Whether you want a clean break or a multi-year transition, we structure around your goals. There is no pressure to move faster than makes sense for you and your business." },
+            ].map((item, i, arr) => (
+              <div key={item.title} style={{
+                padding: "28px 0",
+                borderTop: "1px solid #EAE6E0",
+                borderBottom: i === arr.length - 1 ? "1px solid #EAE6E0" : "none",
+              }}>
+                <h3 style={{
+                  fontFamily: "Georgia, 'Times New Roman', serif",
+                  fontSize: "19px", fontWeight: 400,
+                  color: "#1C1916", margin: "0 0 10px",
+                }}>
+                  {item.title}
+                </h3>
+                <p className="rh-body" style={{ marginBottom: 0 }}>{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* What to Expect */}
+      <section className="rh-section rh-section-alt">
         <div className="rh-container-text">
-          <span className="rh-eyebrow">What to Expect</span>
-          <h2 className="rh-h2">A straightforward process.</h2>
+          <span className="rh-eyebrow">The Process</span>
+          <h2 className="rh-h2">Simple. Confidential. Direct.</h2>
           <p className="rh-body">
-            Every conversation starts with confidentiality and without obligation. We will ask to understand your business, your goals, and your timeline. If there's a fit, we move efficiently from there.
+            Every conversation starts in confidence and without obligation. We will ask to understand your business, your goals, and your preferred timeline. If there is a fit, we move efficiently toward a straightforward transaction.
           </p>
           <p className="rh-body">
-            We typically look for businesses with at least $250K in annual earnings and a consistent operating history. Beyond that, the most important thing is that the business is well-regarded by its customers and that the owner is ready to transition.
+            We typically focus on businesses generating at least $250K in annual earnings with a consistent operating history. Most important is that the business serves its customers well and the owner is ready to transition thoughtfully.
           </p>
           <p className="rh-body">
-            We will not waste your time, and we ask that you give us the information we need to evaluate the opportunity honestly. That's the foundation for a transaction that works for both sides.
+            We will not waste your time. We ask only for the information needed to evaluate the opportunity honestly — that is the foundation for a transaction that works for both sides.
           </p>
         </div>
       </section>

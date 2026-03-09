@@ -39,10 +39,10 @@ export default function Home() {
         <div className="rh-container">
           <span className="rh-eyebrow">Renaissance Holdings</span>
           <h1 className="rh-h1" style={{ maxWidth: "680px" }}>
-            A long-term owner of essential local service businesses.
+            We acquire and operate essential local service businesses.
           </h1>
           <p className="rh-body-lg" style={{ maxWidth: "540px" }}>
-            We acquire and build durable, overlooked service companies where operational discipline, market fragmentation, and recurring demand create compounding value over time.
+            Renaissance Holdings is a long-term owner of durable service companies in fragmented local markets. We focus on operational improvement, disciplined capital allocation, and permanent ownership.
           </p>
           <div style={{ display: "flex", gap: "12px", flexWrap: "wrap", marginTop: "8px" }}>
             <Link to={createPageUrl("Contact")} className="rh-btn">Discuss a Business</Link>
@@ -76,12 +76,12 @@ export default function Home() {
       <section className="rh-section">
         <div className="rh-container-text">
           <span className="rh-eyebrow">Why This Works</span>
-          <h2 className="rh-h2">Fragmented markets create opportunity.</h2>
+          <h2 className="rh-h2">Fragmented markets reward patient operators.</h2>
           <p className="rh-body">
-            Many essential service industries remain highly fragmented and under-institutionalized. Businesses are often operated successfully for decades by founders but lack the systems, capital access, and operational infrastructure needed for the next phase of growth.
+            Many essential service industries remain highly fragmented and under-institutionalized. Businesses in these markets are often operated successfully for decades by founders, but lack the systems, capital access, and operational infrastructure needed to grow beyond their current scale.
           </p>
           <p className="rh-body">
-            Our approach combines disciplined acquisitions with operational support and long-term ownership to unlock durable improvements.
+            We are actively acquiring and building in these markets. Our approach combines disciplined underwriting with direct operational support and a permanent ownership mindset.
           </p>
         </div>
       </section>
@@ -119,6 +119,38 @@ export default function Home() {
             <Link to={createPageUrl("InvestmentCriteria")} className="rh-btn-outline">
               View Investment Criteria
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Credibility signals */}
+      <section className="rh-section">
+        <div className="rh-container">
+          <div style={{ display: "grid", gridTemplateColumns: "1fr", gap: "0", maxWidth: "820px", margin: "0 auto" }}
+            className="rh-cred-grid">
+            <style>{`.rh-cred-grid { @media (min-width: 640px) { grid-template-columns: 1fr 1fr 1fr !important; } }`}</style>
+            {[
+              { label: "Ownership Model", value: "Permanent capital. No fixed exit timeline." },
+              { label: "Operational Focus", value: "Operator-led improvement after every acquisition." },
+              { label: "Seller Philosophy", value: "We preserve brand, employees, and local leadership." },
+            ].map((s) => (
+              <div key={s.label} style={{ padding: "28px 0", borderTop: "1px solid #EAE6E0" }}>
+                <div style={{
+                  fontFamily: "system-ui, sans-serif", fontSize: "10px",
+                  letterSpacing: "0.2em", textTransform: "uppercase",
+                  color: "#AEA9A2", marginBottom: "10px",
+                }}>
+                  {s.label}
+                </div>
+                <p style={{
+                  fontFamily: "Georgia, 'Times New Roman', serif",
+                  fontSize: "17px", color: "#1C1916",
+                  lineHeight: "1.55", margin: 0,
+                }}>
+                  {s.value}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
