@@ -85,7 +85,7 @@ export default function OurModel() {
 
       {/* Supporting section */}
       <section className="rh-section">
-        <div className="rh-container-text">
+        <div className="rh-container">
           <span className="rh-eyebrow">Why It Works</span>
           <h2 className="rh-h2">The platform premium is earned, not assumed.</h2>
           <p className="rh-body">
