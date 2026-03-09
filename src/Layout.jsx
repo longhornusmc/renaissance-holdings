@@ -272,7 +272,7 @@ export default function Layout({ children, currentPageName }) {
               <img
                 src={LOGO_HORIZ}
                 alt="Renaissance Holdings"
-                style={{ height: "34px", filter: "invert(1) sepia(1) saturate(0.4) brightness(0.95)", imageRendering: "crisp-edges" }}
+                style={{ height: "34px", filter: "brightness(0) saturate(100%) invert(70%) sepia(35%) saturate(600%) hue-rotate(5deg) brightness(95%)" }}
               />
             </Link>
 
@@ -322,7 +322,7 @@ export default function Layout({ children, currentPageName }) {
                 <img
                   src={LOGO_VERT}
                   alt="Renaissance Holdings"
-                  style={{ height: "72px", filter: "invert(1) sepia(1) saturate(0.4) brightness(0.95)", marginBottom: "14px", display: "block" }}
+                  style={{ height: "72px", filter: "brightness(0) saturate(100%) invert(70%) sepia(35%) saturate(600%) hue-rotate(5deg) brightness(95%)", marginBottom: "14px", display: "block" }}
                 />
                 <div style={{ fontFamily: "'DM Mono', monospace", fontSize: "9px", letterSpacing: "0.18em", color: "#2a312a", textTransform: "uppercase" }}>
                   Building Quietly. Compounding Relentlessly.
