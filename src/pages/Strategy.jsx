@@ -32,7 +32,7 @@ export default function Strategy() {
     <>
       {/* Hero */}
       <section className="rh-section" style={{ paddingTop: "96px" }}>
-        <div className="rh-container-text">
+        <div className="rh-container">
           <span className="rh-eyebrow">Our Strategy</span>
           <h1 className="rh-h1">Acquire, improve, and compound.</h1>
           <p className="rh-body-lg">
@@ -48,7 +48,7 @@ export default function Strategy() {
 
       {/* Core Strategy */}
       <section className="rh-section rh-section-alt">
-        <div className="rh-container-text">
+        <div className="rh-container">
           <span className="rh-eyebrow">Core Strategy</span>
           <div style={{ display: "flex", flexDirection: "column", gap: "16px", maxWidth: "820px" }}>
             {steps.map((step) => (
@@ -84,7 +84,7 @@ export default function Strategy() {
 
       {/* Why Service Businesses */}
       <section className="rh-section">
-        <div className="rh-container-text">
+        <div className="rh-container">
           <span className="rh-eyebrow">Why Service Businesses</span>
           <h2 className="rh-h2" style={{ maxWidth: "520px" }}>
             Characteristics that make them attractive long-term investments.

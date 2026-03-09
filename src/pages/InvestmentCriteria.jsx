@@ -39,7 +39,7 @@ export default function InvestmentCriteria() {
     <>
       {/* Hero */}
       <section className="rh-section" style={{ paddingTop: "96px" }}>
-        <div className="rh-container-text">
+        <div className="rh-container">
           <span className="rh-eyebrow">Investment Criteria</span>
           <h1 className="rh-h1">How we evaluate opportunities.</h1>
           <p className="rh-body-lg">
@@ -52,7 +52,7 @@ export default function InvestmentCriteria() {
 
       {/* Criteria */}
       <section className="rh-section">
-        <div className="rh-container-text">
+        <div className="rh-container">
           <div style={{ maxWidth: "820px" }}>
             {criteria.map((c, i) => (
               <div key={c.label} style={{

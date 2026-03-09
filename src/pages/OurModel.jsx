@@ -29,7 +29,7 @@ export default function OurModel() {
     <>
       {/* Hero */}
       <section className="rh-section" style={{ paddingTop: "96px" }}>
-        <div className="rh-container-text">
+        <div className="rh-container">
           <span className="rh-eyebrow">Our Model</span>
           <h1 className="rh-h1">How the model compounds.</h1>
           <p className="rh-body-lg">
@@ -45,7 +45,7 @@ export default function OurModel() {
 
       {/* Value Creation Pillars */}
       <section className="rh-section rh-section-alt">
-        <div className="rh-container-text">
+        <div className="rh-container">
           <span className="rh-eyebrow">Value Creation</span>
           <h2 className="rh-h2" style={{ maxWidth: "480px", marginBottom: "48px" }}>
             Four pillars of long-term platform value.
