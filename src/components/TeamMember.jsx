@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 
-export default function TeamMember({ name, title, image, keyFacts, biography }) {
+export default function TeamMember({ name, title, image, keyFacts, biography, linkedinUrl }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
