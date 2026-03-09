@@ -79,7 +79,7 @@ export default function Team() {
           <h2 className="rh-h2" style={{ maxWidth: "480px", marginBottom: "16px" }}>
             Supported by experienced operators and industry specialists.
           </h2>
-          <p className="rh-body" style={{ maxWidth: "560px", marginBottom: "44px" }}>
+          <p className="rh-body" style={{ marginBottom: "44px" }}>
             Renaissance Holdings is supported by a network of operators, industry advisors, and capital partners who bring direct experience in the markets we target.
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "32px" }}>
@@ -111,7 +111,7 @@ export default function Team() {
 
       {/* Contact */}
       <section className="rh-section">
-        <div className="rh-container-text">
+        <div className="rh-container">
           <span className="rh-eyebrow">Get in Touch</span>
           <h2 className="rh-h2">We welcome introductions.</h2>
           <p className="rh-body" style={{ marginBottom: "32px" }}>
