@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { createPageUrl } from "@/utils";
+import TeamMember from "../components/TeamMember";
 
 export default function Team() {
   return (
