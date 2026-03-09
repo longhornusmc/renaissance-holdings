@@ -71,23 +71,23 @@ export default function IllustrativeEconomics() {
             {multiples.map((m) => (
               <div key={m.label} className="rh-card" style={{ background: "#FAFAF7" }}>
                 <div style={{
-                  fontFamily: "system-ui, sans-serif",
+                  fontFamily: "'DM Sans', system-ui, sans-serif",
                   fontSize: "10px", letterSpacing: "0.2em",
-                  textTransform: "uppercase", color: "#AEA9A2",
+                  textTransform: "uppercase", color: "#5e5a4e",
                   marginBottom: "12px",
                 }}>
                   {m.label}
                 </div>
                 <div style={{
-                  fontFamily: "Georgia, serif",
+                  fontFamily: "'Playfair Display', Georgia, serif",
                   fontSize: "34px", fontWeight: 400,
-                  color: "#1C1916", marginBottom: "4px", lineHeight: "1",
+                  color: "#f2ecd8", marginBottom: "4px", lineHeight: "1",
                 }}>
                   {m.value}
                 </div>
                 <div style={{
-                  fontFamily: "system-ui, sans-serif",
-                  fontSize: "12px", color: "#AEA9A2", marginBottom: "16px",
+                  fontFamily: "'DM Sans', system-ui, sans-serif",
+                  fontSize: "12px", color: "#5e5a4e", marginBottom: "16px",
                 }}>
                   {m.note}
                 </div>
@@ -109,8 +109,8 @@ export default function IllustrativeEconomics() {
             {levers.map((l, i) => (
               <div key={l.title} style={{
                 padding: "28px 0",
-                borderBottom: i < levers.length - 1 ? "1px solid #EAE6E0" : "none",
-                borderTop: i === 0 ? "1px solid #EAE6E0" : "none",
+                borderBottom: i < levers.length - 1 ? "1px solid #1a211a" : "none",
+                borderTop: i === 0 ? "1px solid #1a211a" : "none",
                 display: "grid",
                 gridTemplateColumns: "1fr",
                 gap: "8px",

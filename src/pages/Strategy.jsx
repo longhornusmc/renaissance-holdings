@@ -57,20 +57,20 @@ export default function Strategy() {
                 gridTemplateColumns: "48px 1fr",
                 gap: "24px",
                 padding: "28px 0",
-                borderBottom: "1px solid #E4E0D8",
+                borderBottom: "1px solid #1a211a",
               }}>
                 <div style={{
-                  fontFamily: "Georgia, serif",
+                  fontFamily: "'Playfair Display', Georgia, serif",
                   fontSize: "28px", fontWeight: 400,
-                  color: "#D4D0C8", paddingTop: "4px", lineHeight: "1",
+                  color: "#6b5a2a", paddingTop: "4px", lineHeight: "1",
                 }}>
                   {step.num}
                 </div>
                 <div>
                   <h3 style={{
-                    fontFamily: "Georgia, 'Times New Roman', serif",
+                    fontFamily: "'Playfair Display', Georgia, serif",
                     fontSize: "22px", fontWeight: 400,
-                    color: "#1C1916", margin: "0 0 12px",
+                    color: "#f2ecd8", margin: "0 0 12px",
                   }}>
                     {step.title}
                   </h3>

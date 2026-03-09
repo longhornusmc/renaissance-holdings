@@ -33,13 +33,13 @@ export default function Contact() {
             {submitted ? (
               <div style={{
                 padding: "48px 0",
-                borderTop: "1px solid #EAE6E0",
-                borderBottom: "1px solid #EAE6E0",
+                borderTop: "1px solid #1a211a",
+                borderBottom: "1px solid #1a211a",
               }}>
                 <div style={{
-                  fontFamily: "Georgia, serif",
+                  fontFamily: "'Playfair Display', Georgia, serif",
                   fontSize: "26px", fontWeight: 400,
-                  color: "#1C1916", marginBottom: "16px",
+                  color: "#f2ecd8", marginBottom: "16px",
                 }}>
                   Thank you for reaching out.
                 </div>

@@ -24,21 +24,21 @@ export default function Team() {
           <div style={{ maxWidth: "820px" }}>
             <div style={{
               padding: "40px 0",
-              borderBottom: "1px solid #EAE6E0",
-              borderTop: "1px solid #EAE6E0",
+              borderBottom: "1px solid #1a211a",
+              borderTop: "1px solid #1a211a",
             }}>
               <div style={{
                 fontFamily: "system-ui, sans-serif",
                 fontSize: "10px", letterSpacing: "0.22em",
-                textTransform: "uppercase", color: "#AEA9A2",
+                textTransform: "uppercase", color: "#5e5a4e",
                 marginBottom: "12px",
               }}>
                 Founder &amp; Managing Partner
               </div>
               <h2 style={{
-                fontFamily: "Georgia, 'Times New Roman', serif",
+                fontFamily: "'Playfair Display', Georgia, serif",
                 fontSize: "26px", fontWeight: 400,
-                color: "#1C1916", margin: "0 0 16px",
+                color: "#f2ecd8", margin: "0 0 16px",
               }}>
                 [Name]
               </h2>
@@ -66,14 +66,14 @@ export default function Team() {
                 <div style={{
                   fontFamily: "system-ui, sans-serif",
                   fontSize: "10px", letterSpacing: "0.2em",
-                  textTransform: "uppercase", color: "#AEA9A2",
+                  textTransform: "uppercase", color: "#5e5a4e",
                   marginBottom: "10px",
                 }}>
                   {role}
                 </div>
                 <div style={{
                   fontFamily: "Georgia, serif",
-                  fontSize: "18px", color: "#1C1916",
+                  fontSize: "18px", color: "#f2ecd8",
                   marginBottom: "10px", fontWeight: 400,
                 }}>
                   [Name]

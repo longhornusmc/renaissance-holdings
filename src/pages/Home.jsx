@@ -134,17 +134,17 @@ export default function Home() {
               { label: "Operational Focus", value: "Operator-led improvement after every acquisition." },
               { label: "Seller Philosophy", value: "We preserve brand, employees, and local leadership." },
             ].map((s) => (
-              <div key={s.label} style={{ padding: "28px 0", borderTop: "1px solid #EAE6E0" }}>
+              <div key={s.label} style={{ padding: "28px 0", borderTop: "1px solid #1a211a" }}>
                 <div style={{
                   fontFamily: "system-ui, sans-serif", fontSize: "10px",
                   letterSpacing: "0.2em", textTransform: "uppercase",
-                  color: "#AEA9A2", marginBottom: "10px",
+                  color: "#5e5a4e", marginBottom: "10px",
                 }}>
                   {s.label}
                 </div>
                 <p style={{
-                  fontFamily: "Georgia, 'Times New Roman', serif",
-                  fontSize: "17px", color: "#1C1916",
+                  fontFamily: "'Playfair Display', Georgia, serif",
+                  fontSize: "17px", color: "#f2ecd8",
                   lineHeight: "1.55", margin: 0,
                 }}>
                   {s.value}

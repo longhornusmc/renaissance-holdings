@@ -57,21 +57,21 @@ export default function OurModel() {
                 gridTemplateColumns: "56px 1fr",
                 gap: "24px",
                 padding: "32px 0",
-                borderBottom: i < pillars.length - 1 ? "1px solid #E4E0D8" : "none",
-                borderTop: i === 0 ? "1px solid #E4E0D8" : "none",
+                borderBottom: i < pillars.length - 1 ? "1px solid #1a211a" : "none",
+                borderTop: i === 0 ? "1px solid #1a211a" : "none",
               }}>
                 <div style={{
-                  fontFamily: "Georgia, serif",
+                  fontFamily: "'Playfair Display', Georgia, serif",
                   fontSize: "24px", fontWeight: 400,
-                  color: "#D4D0C8", paddingTop: "4px", lineHeight: "1",
+                  color: "#6b5a2a", paddingTop: "4px", lineHeight: "1",
                 }}>
                   {p.num}
                 </div>
                 <div>
                   <h3 style={{
-                    fontFamily: "Georgia, 'Times New Roman', serif",
+                    fontFamily: "'Playfair Display', Georgia, serif",
                     fontSize: "21px", fontWeight: 400,
-                    color: "#1C1916", margin: "0 0 12px",
+                    color: "#f2ecd8", margin: "0 0 12px",
                   }}>
                     {p.title}
                   </h3>

@@ -45,7 +45,7 @@ export default function ForSellers() {
           </h2>
           <div className="rh-grid-2">
             {reasons.map((r) => (
-              <div key={r.title} className="rh-card" style={{ background: "#FAFAF7" }}>
+              <div key={r.title} className="rh-card" style={{ background: "#111610" }}>
                 <h3 className="rh-h3" style={{ marginBottom: "12px" }}>{r.title}</h3>
                 <p className="rh-body" style={{ marginBottom: 0, fontSize: "15px" }}>{r.body}</p>
               </div>
@@ -68,13 +68,13 @@ export default function ForSellers() {
             ].map((item, i, arr) => (
               <div key={item.title} style={{
                 padding: "28px 0",
-                borderTop: "1px solid #EAE6E0",
-                borderBottom: i === arr.length - 1 ? "1px solid #EAE6E0" : "none",
+                borderTop: "1px solid #1a211a",
+                borderBottom: i === arr.length - 1 ? "1px solid #1a211a" : "none",
               }}>
                 <h3 style={{
-                  fontFamily: "Georgia, 'Times New Roman', serif",
+                  fontFamily: "'Playfair Display', Georgia, serif",
                   fontSize: "19px", fontWeight: 400,
-                  color: "#1C1916", margin: "0 0 10px",
+                  color: "#f2ecd8", margin: "0 0 10px",
                 }}>
                   {item.title}
                 </h3>

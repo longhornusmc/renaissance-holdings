@@ -57,23 +57,23 @@ export default function InvestmentCriteria() {
             {criteria.map((c, i) => (
               <div key={c.label} style={{
                 padding: "36px 0",
-                borderBottom: i < criteria.length - 1 ? "1px solid #EAE6E0" : "none",
+                borderBottom: i < criteria.length - 1 ? "1px solid #1a211a" : "none",
                 display: "grid",
                 gridTemplateColumns: "1fr",
                 gap: "4px",
               }}>
                 <span style={{
-                  fontFamily: "system-ui, -apple-system, sans-serif",
+                  fontFamily: "'DM Sans', system-ui, sans-serif",
                   fontSize: "10px", letterSpacing: "0.22em",
-                  textTransform: "uppercase", color: "#AEA9A2",
+                  textTransform: "uppercase", color: "#5e5a4e",
                   display: "block", marginBottom: "10px",
                 }}>
                   {c.label}
                 </span>
                 <h3 style={{
-                  fontFamily: "Georgia, 'Times New Roman', serif",
+                  fontFamily: "'Playfair Display', Georgia, serif",
                   fontSize: "21px", fontWeight: 400,
-                  color: "#1C1916", margin: "0 0 14px", lineHeight: "1.35",
+                  color: "#f2ecd8", margin: "0 0 14px", lineHeight: "1.35",
                 }}>
                   {c.title}
                 </h3>

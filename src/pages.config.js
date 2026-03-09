@@ -47,28 +47,28 @@
  *
  * The mainPage value must match a key in the PAGES object exactly.
  */
+import CaseStudies from './pages/CaseStudies';
+import Contact from './pages/Contact';
+import ForSellers from './pages/ForSellers';
 import Home from './pages/Home';
-import Strategy from './pages/Strategy';
+import IllustrativeEconomics from './pages/IllustrativeEconomics';
 import InvestmentCriteria from './pages/InvestmentCriteria';
 import OurModel from './pages/OurModel';
-import CaseStudies from './pages/CaseStudies';
-import ForSellers from './pages/ForSellers';
+import Strategy from './pages/Strategy';
 import Team from './pages/Team';
-import Contact from './pages/Contact';
-import IllustrativeEconomics from './pages/IllustrativeEconomics';
 import __Layout from './Layout.jsx';
 
 
 export const PAGES = {
+    "CaseStudies": CaseStudies,
+    "Contact": Contact,
+    "ForSellers": ForSellers,
     "Home": Home,
-    "Strategy": Strategy,
+    "IllustrativeEconomics": IllustrativeEconomics,
     "InvestmentCriteria": InvestmentCriteria,
     "OurModel": OurModel,
-    "CaseStudies": CaseStudies,
-    "ForSellers": ForSellers,
+    "Strategy": Strategy,
     "Team": Team,
-    "Contact": Contact,
-    "IllustrativeEconomics": IllustrativeEconomics,
 }
 
 export const pagesConfig = {

@@ -78,21 +78,21 @@ export default function CaseStudies() {
             {cases.map((c, i) => (
               <div key={c.num} style={{
                 padding: "56px 0",
-                borderBottom: i < cases.length - 1 ? "1px solid #EAE6E0" : "none",
+                borderBottom: i < cases.length - 1 ? "1px solid #1a211a" : "none",
               }}>
                 <div style={{ display: "flex", alignItems: "baseline", gap: "14px", marginBottom: "6px" }}>
                   <span style={{
                     fontFamily: "system-ui, sans-serif",
-                    fontSize: "10px", color: "#AEA9A2",
+                    fontSize: "10px", color: "#5e5a4e",
                     letterSpacing: "0.2em", textTransform: "uppercase",
                   }}>
                     {c.sector}
                   </span>
                 </div>
                 <h2 style={{
-                  fontFamily: "Georgia, 'Times New Roman', serif",
+                  fontFamily: "'Playfair Display', Georgia, serif",
                   fontSize: "clamp(22px, 3.5vw, 32px)",
-                  fontWeight: 400, color: "#1C1916",
+                  fontWeight: 400, color: "#f2ecd8",
                   margin: "0 0 36px", lineHeight: "1.2",
                 }}>
                   {c.title}
@@ -110,7 +110,7 @@ export default function CaseStudies() {
                     <div style={{
                       fontFamily: "system-ui, sans-serif",
                       fontSize: "10px", letterSpacing: "0.2em",
-                      textTransform: "uppercase", color: "#AEA9A2",
+                      textTransform: "uppercase", color: "#5e5a4e",
                       marginBottom: "16px",
                     }}>
                       Business Profile
@@ -120,7 +120,7 @@ export default function CaseStudies() {
                         <div key={j} style={{ display: "flex", gap: "12px", alignItems: "flex-start" }}>
                           <div style={{
                             width: "4px", height: "4px", borderRadius: "50%",
-                            background: "#C8C4BC", marginTop: "10px", flexShrink: 0,
+                            background: "#3a4038", marginTop: "10px", flexShrink: 0,
                           }} />
                           <p className="rh-body" style={{ marginBottom: 0, fontSize: "15px", lineHeight: "1.65" }}>{item}</p>
                         </div>
@@ -132,7 +132,7 @@ export default function CaseStudies() {
                     <div style={{
                       fontFamily: "system-ui, sans-serif",
                       fontSize: "10px", letterSpacing: "0.2em",
-                      textTransform: "uppercase", color: "#AEA9A2",
+                      textTransform: "uppercase", color: "#5e5a4e",
                       marginBottom: "16px",
                     }}>
                       Operational Opportunities
@@ -142,7 +142,7 @@ export default function CaseStudies() {
                         <div key={j} style={{ display: "flex", gap: "12px", alignItems: "flex-start" }}>
                           <div style={{
                             width: "4px", height: "4px", borderRadius: "50%",
-                            background: "#C8C4BC", marginTop: "10px", flexShrink: 0,
+                            background: "#3a4038", marginTop: "10px", flexShrink: 0,
                           }} />
                           <p className="rh-body" style={{ marginBottom: 0, fontSize: "15px", lineHeight: "1.65" }}>{item}</p>
                         </div>
