@@ -74,13 +74,13 @@ export default function Home() {
 
       {/* Why This Works */}
       <section className="rh-section">
-        <div className="rh-container-text">
+        <div className="rh-container">
           <span className="rh-eyebrow">Why This Works</span>
-          <h2 className="rh-h2">Fragmented markets reward patient operators.</h2>
-          <p className="rh-body">
+          <h2 className="rh-h2" style={{ maxWidth: "540px" }}>Fragmented markets reward patient operators.</h2>
+          <p className="rh-body" style={{ maxWidth: "560px" }}>
             Many essential service industries remain highly fragmented and under-institutionalized. Businesses in these markets are often operated successfully for decades by founders, but lack the systems, capital access, and operational infrastructure needed to grow beyond their current scale.
           </p>
-          <p className="rh-body">
+          <p className="rh-body" style={{ maxWidth: "560px" }}>
             We are actively acquiring and building in these markets. Our approach combines disciplined underwriting with direct operational support and a permanent ownership mindset.
           </p>
         </div>
